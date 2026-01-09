@@ -2,8 +2,6 @@ body button:hover{
 background-color: paleturquoise;
 }
 
-
-
 nav .div-1{
     display: flex;
     gap:20px;
@@ -25,7 +23,7 @@ nav button{
 }
 main .banner{
 background-image:url('images/hero-bg.png');
- 
+ height:500px;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: 600;
 display: flex;
@@ -100,7 +98,6 @@ align-items: center;
 font-weight: bolder;
 font-size: 52px;
 }
-
 main #hero-1{
     background-color:antiquewhite;
     margin: 0;
@@ -132,6 +129,7 @@ main .card-11{
 }
 main .card-11 img{
     background-color:red;
+    background-color:rgb(255, 166, 0) ;
     border-radius: 50px;
     height:30px;
     width:30px;
@@ -224,5 +222,4 @@ footer .footer-line{
     background: lightslategray;
     border:none;
     height:1px;
-    
 }
