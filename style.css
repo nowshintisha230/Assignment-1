@@ -13,6 +13,7 @@ nav {
     padding:20px 40px 20px 40px;
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
+    width:97%;
 }
 nav button{
     background-color: green;
@@ -24,7 +25,7 @@ nav button{
 }
 main .banner{
 background-image:url('images/hero-bg.png');
- height:400px;
+ height:auto;
  width:100%;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: 600;
@@ -125,8 +126,12 @@ font-size: 52px;
 }
 main #hero-1{
     background-color:antiquewhite;
-    margin: 0;
-    padding: 50px;
+    margin: 0px;
+    padding:100px;
+   
+width:90%;
+
+    
 }
 main .card{
    display: block;
@@ -135,8 +140,7 @@ main .card{
 }
 main .card-1{
     display: flex;
-    justify-content: space-around;
-    gap:10px;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 main .card-11{
