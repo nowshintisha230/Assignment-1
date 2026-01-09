@@ -1,0 +1,228 @@
+body button:hover{
+background-color: paleturquoise;
+}
+
+
+
+nav .div-1{
+    display: flex;
+    gap:20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px 20px 40px;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav button{
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+    height:50px;
+    width:160px;
+    font-weight: 600;
+}
+main .banner{
+background-image:url('images/hero-bg.png');
+ 
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:0;
+padding:40px;
+background-repeat: no-repeat;
+}
+main .div-2{
+    text-align: center;
+    max-width: 800px;
+}
+main .div-3{
+    display: flex;
+    justify-content: center;   
+    align-items: center;    
+    gap: 30px;
+    margin-top: 20px;
+}
+
+main .btn-1{
+    border-radius: 15px;
+    height:30px;
+    width:210px;
+    border:1px solid white;
+    background-color: white;
+}
+main .btn-2{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    height:50px;
+    width:220px;
+    border:5px solid green;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+
+}
+main .btn-3{
+    border-radius: 5px;
+    color: white;
+    height:50px;
+    width:190px;
+    border:1px solid white;
+    background: none;
+}
+main .div2-4{
+
+color: rgba(255, 255, 255, 1);
+max-width: 650px;
+font-family: Inter;
+font-style: Regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin:20px auto;
+}
+main .div2-0{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main .div2-1 , .div2-3{
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bolder;
+font-size: 52px;
+}
+
+main #hero-1{
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 50px;
+}
+main .card{
+   display: block;
+ text-align:center ;
+ margin-bottom: 60px;
+}
+main .card-1{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    flex-wrap: wrap;
+}
+main .card-11{
+    background:white;
+    border:1px solid lightgoldenrodyellow;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.08);
+    padding:50px;
+    text-align: center;
+    width:290px;
+}
+.card h1{
+    font-size:50px ;
+}
+main .card-11 img{
+    background-color:red;
+    border-radius: 50px;
+    height:30px;
+    width:30px;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+main .div4-1{
+    display: block;
+}
+main .circle{
+    display: flex;
+    gap:18px;
+}
+main.circle img{
+    height:90px;
+    width:90px;
+}
+#hero-2{
+    display: flex;
+     margin: 0;
+    padding: 90px;
+    gap:80px;
+}
+#hero-2 h6{
+    color: green;
+    font-weight:bold;
+}
+#hero-2 h2{
+    font-size: 70px;
+}
+main .div-4{
+   padding: 50px 80px 50px 0;
+}
+
+main .btn-4{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    height:50px;
+    width:220px;
+    border:5px solid green;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+
+}
+.div-5{
+    display: block;
+}
+#hero-3{
+    font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:0 120px ;
+padding:20px;
+background-color: lightslategray;
+border-radius: 15px;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    margin-top:80px;
+    padding:70px 30px 5px 30px;
+
+}
+footer p ,h4{
+    color:white;
+}
+footer .logo{
+    background-color: white;
+}
+footer p{
+    text-align: center;
+}
+footer .con{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap:350px;
+   margin-bottom: 90px;
+}
+footer .footer-line{
+    background: lightslategray;
+    border:none;
+    height:1px;
+    
+}
