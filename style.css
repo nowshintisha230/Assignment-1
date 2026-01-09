@@ -6,6 +6,7 @@ nav .div-1{
     display: flex;
     gap:20px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -23,7 +24,8 @@ nav button{
 }
 main .banner{
 background-image:url('images/hero-bg.png');
- height:500px;
+ height:400px;
+ width:100%;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: 600;
 display: flex;
@@ -32,6 +34,7 @@ align-items: center;
 margin:0;
 padding:40px;
 background-repeat: no-repeat;
+background-size: cover;
 }
 main .div-2{
     text-align: center;
@@ -51,6 +54,13 @@ main .btn-1{
     width:210px;
     border:1px solid white;
     background-color: white;
+    color: #30B868;
+}
+main .dot{
+    height:16px;
+    width:16px;
+    border:8px;
+    background-color:var(--#30B868, rgba(70, 145, 101, 1));
 }
 main .btn-2{
     background-color: green;
@@ -74,6 +84,7 @@ main .btn-3{
     border:1px solid white;
     background: none;
 }
+
 main .div2-4{
 
 color: rgba(255, 255, 255, 1);
@@ -129,7 +140,6 @@ main .card-11{
 }
 main .card-11 img{
     background-color:red;
-    background-color:rgb(255, 166, 0) ;
     border-radius: 50px;
     height:30px;
     width:30px;
@@ -137,9 +147,7 @@ main .card-11 img{
     padding: 7px;
 }
 
-main .div4-1{
-    display: block;
-}
+
 main .circle{
     display: flex;
     gap:18px;
@@ -153,16 +161,48 @@ main.circle img{
      margin: 0;
     padding: 90px;
     gap:80px;
+    width:auto;
+    height:auto;
 }
+
 #hero-2 h6{
     color: green;
     font-weight:bold;
+    margin-bottom: 6px;
 }
 #hero-2 h2{
-    font-size: 70px;
+   margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
-main .div-4{
-   padding: 50px 80px 50px 0;
+#hero-2 p{
+    margin-top: 0;
+    font-size: 20px;
+}
+#hero-2 .img{
+    width:680px;
+    height:680px;
+    margin-left: 25px;
+}
+.div-4{
+   padding:70px 20px 2px 5px;
+}
+.image-list {
+  list-style: none;  
+  padding: 0;
+}
+
+.image-list li {
+  display: flex;         
+  align-items: center;  
+  gap: 12px;             
+  margin: 12px 0;
+}
+
+.image-list img {
+  width:30px;
+  height:30px;
+      background-color:green;
 }
 
 main .btn-4{
@@ -180,7 +220,7 @@ main .btn-4{
 
 }
 .div-5{
-    display: block;
+    text-align: center;
 }
 #hero-3{
     font-family: Arial, Helvetica, sans-serif;
@@ -190,10 +230,10 @@ justify-content: center;
 align-items: center;
 margin:0 120px ;
 padding:20px;
-background-color: lightslategray;
+background-color:lightgray;
 border-radius: 15px;
-flex-wrap: wrap;
 flex-direction: column;
+text-align: center;
 }
 
 footer{
@@ -204,6 +244,7 @@ footer{
 }
 footer p ,h4{
     color:white;
+    font-size: 20px;
 }
 footer .logo{
     background-color: white;
@@ -215,11 +256,20 @@ footer .con{
     display: flex;
    justify-content: space-around;
    align-items: center;
-   gap:350px;
    margin-bottom: 90px;
 }
 footer .footer-line{
     background: lightslategray;
     border:none;
     height:1px;
+}
+footer i{
+    background-color: white;
+    border-radius: 15px;
+width:40px;
+height:20px;
+margin:5px;
+}
+.social{
+    display: block;
 }
